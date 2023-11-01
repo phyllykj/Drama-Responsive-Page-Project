@@ -4,6 +4,9 @@
   margin: 0 auto;
 }
 
+body {
+  background-color: #4c9697;
+}
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/Barcelona2.jpg");
@@ -16,7 +19,7 @@ header {
 }
 
 .header-text {
-  color: white;
+  color: palegoldenrod;
   font-family: "Gloria Hallelujah", cursive;
 }
 
@@ -31,7 +34,6 @@ header h3 {
   font-family: "Comfortaa", sans-serif;
   font-size: 24px;
 
-  background: #4c9697;
   line-height: 40px;
 }
 
