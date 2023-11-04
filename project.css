@@ -23,6 +23,43 @@ header {
   font-family: "Gloria Hallelujah", cursive;
 }
 
+footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/Speech Bubbles3.JPG");
+  background-size: cover;
+  margin-top: 40px;
+  display: block;
+  margin: 0 auto;
+  padding: 120px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 12px;
+  color: palegoldenrod;
+}
+
+a {
+  color: palegoldenrod;
+}
+
+a:visited {
+  color: grey;
+}
+
+hr {
+  border-color: grey;
+}
+
+h3 {
+  font-size: 16px;
+  color: grey;
+}
+
+.footer-section {
+  padding: 20px;
+}
 header h1 {
   font-size: 60px;
   margin-top: 0;
@@ -37,6 +74,7 @@ header h3 {
   font-size: 28px;
   margin-top: 40px;
   line-height: 40px;
+  color: palegoldenrod;
 }
 
 @media (max-width: 1300px) {
