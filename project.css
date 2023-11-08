@@ -2,6 +2,7 @@
   background-color: #4c9697;
   max-width: 1400px;
   margin: 0 auto;
+  display: block;
 }
 
 body {
@@ -13,6 +14,7 @@ main {
   font-family: "Gloria Hallelujah", cursive;
   margin: 20px;
   padding: 20px;
+  max-width: 100%;
 }
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
@@ -40,11 +42,10 @@ header {
 
 .section-2 {
   font-family: "Comfortaa", sans-serif;
-  background-color: #b3a898;
   padding: 20px;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-top: 20px;
+
+  max-width: 100%;
+  text-align: center;
 }
 .grid-2 ul {
   font-size: 14px;
@@ -52,6 +53,7 @@ header {
 
 .img-responsive {
   max-width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .grid-2 {
@@ -201,6 +203,24 @@ header h3 {
   img {
     display: none;
   }
+
+  .card img {
+    display: block;
+  }
+
+  .card-footer h3 {
+    font-size: 18px;
+  }
+
+  .grid-3-columns {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .section-2 {
+    display: block;
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 500px) {
@@ -239,5 +259,25 @@ header h3 {
   }
   img {
     display: none;
+  }
+
+  .card-footer h3 {
+    font-size: 16px;
+  }
+
+  .card-footer p {
+    font-size: 12px;
+  }
+
+  .grid-3-columns {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 10px;
+    padding: 5px;
+  }
+
+  .section-2 {
+    display: block;
+    margin: 0 auto;
   }
 }
