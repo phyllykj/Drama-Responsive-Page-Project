@@ -99,6 +99,14 @@ footer {
   color: palegoldenrod;
 }
 
+.grid-3-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 40px;
+  padding: 20px;
+  grid-gap: 30px;
+}
+
 a {
   color: palegoldenrod;
 }
@@ -170,10 +178,6 @@ header h3 {
     padding: 60px;
   }
 
-  .grid-3-columns {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
   .grid {
     grid-template-columns: 1fr;
     font-size: 12px;
