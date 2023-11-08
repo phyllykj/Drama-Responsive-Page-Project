@@ -7,6 +7,13 @@
 body {
   background-color: #4c9697;
 }
+
+main {
+  background-color: palegoldenrod;
+  font-family: "Gloria Hallelujah", cursive;
+  margin: 20px;
+  padding: 20px;
+}
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../images/Barcelona2.jpg");
@@ -16,6 +23,33 @@ header {
   margin: 0 auto;
   text-align: center;
   padding: 120px;
+}
+
+.grid-2 h2 {
+  color: #4c9697;
+  font-size: 30px;
+}
+
+.grid-2 p {
+  font-size: 14px;
+}
+
+.applied-theatre-school h3 {
+  font-size: 24px;
+}
+
+.grid-2 ul {
+  font-size: 14px;
+}
+
+.img-responsive {
+  max-width: 100%;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
 }
 
 .header-text {
@@ -37,7 +71,7 @@ footer {
   grid-template-columns: 1fr 2fr 2fr;
   grid-gap: 20px;
   font-family: "Comfortaa", sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   color: palegoldenrod;
 }
 
@@ -111,6 +145,27 @@ header h3 {
   header {
     padding: 60px;
   }
+
+  .grid {
+    grid-template-columns: 1fr;
+    font-size: 12px;
+  }
+
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-2 h2 {
+    font-size: 24px;
+  }
+
+  .applied-theatre-school h3 {
+    font-size: 18px;
+  }
+
+  img {
+    display: none;
+  }
 }
 
 @media (max-width: 500px) {
@@ -129,5 +184,25 @@ header h3 {
 
   header {
     padding: 45px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    font-size: 12px;
+  }
+
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-2 h2 {
+    font-size: 24px;
+  }
+
+  .applied-theatre-school h3 {
+    font-size: 18px;
+  }
+  img {
+    display: none;
   }
 }
