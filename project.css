@@ -38,10 +38,13 @@ header {
   font-size: 24px;
 }
 
-.section2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+.section-2 {
   font-family: "Comfortaa", sans-serif;
+  background-color: #b3a898;
+  padding: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
 }
 .grid-2 ul {
   font-size: 14px;
