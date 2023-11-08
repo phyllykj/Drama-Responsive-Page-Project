@@ -38,6 +38,11 @@ header {
   font-size: 24px;
 }
 
+.section2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-family: "Comfortaa", sans-serif;
+}
 .grid-2 ul {
   font-size: 14px;
 }
@@ -55,6 +60,25 @@ header {
 .header-text {
   color: palegoldenrod;
   font-family: "Gloria Hallelujah", cursive;
+}
+
+.card {
+  background-color: #ebb37a;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card-header {
+  max-width: 100%;
+}
+
+.card-footer h3 {
+  font-family: "Gloria Hallelujah", cursive;
+  color: black;
+  font-size: 24px;
+}
+.card-footer p {
+  font-family: "Comfortaa", sans-serif;
 }
 
 footer {
@@ -146,6 +170,10 @@ header h3 {
     padding: 60px;
   }
 
+  .grid-3-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
   .grid {
     grid-template-columns: 1fr;
     font-size: 12px;
