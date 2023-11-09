@@ -52,7 +52,6 @@ header {
 .section-2 {
   font-family: "Comfortaa", sans-serif;
   padding: 20px;
-
   max-width: 100%;
   text-align: center;
 }
@@ -229,6 +228,7 @@ header h3 {
   }
 
   .card-footer p {
+    display: block;
     font-size: 12px;
   }
 
@@ -282,11 +282,15 @@ header h3 {
   }
 
   .card-footer h3 {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .card-footer p {
     display: none;
+  }
+
+  .card {
+    padding: 15px;
   }
 
   .grid-3-columns {
@@ -299,5 +303,6 @@ header h3 {
   .section-2 {
     display: block;
     margin: 0 auto;
+    padding: 5px;
   }
 }
