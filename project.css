@@ -55,8 +55,13 @@ header {
   max-width: 100%;
   text-align: center;
 }
+
+.section-2 h3 {
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 24px;
+}
 .grid-2 ul {
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .img-responsive {
@@ -211,7 +216,14 @@ header h3 {
     font-size: 24px;
   }
 
+  .grid-2 ul {
+    font-size: 16px;
+  }
   .applied-theatre-school h3 {
+    font-size: 18px;
+  }
+
+  .section-2 h3 {
     font-size: 18px;
   }
 
@@ -273,7 +285,9 @@ header h3 {
   .grid-2 h2 {
     font-size: 24px;
   }
-
+  .grid-2 ul {
+    font-size: 14px;
+  }
   .applied-theatre-school h3 {
     font-size: 18px;
   }
@@ -304,5 +318,9 @@ header h3 {
     display: block;
     margin: 0 auto;
     padding: 5px;
+  }
+
+  .section-2 h3 {
+    font-size: 18px;
   }
 }
