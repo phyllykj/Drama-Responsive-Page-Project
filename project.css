@@ -28,6 +28,13 @@ header {
   max-width: 100%;
 }
 
+.learn-more {
+  background-color: #ebb37a;
+  padding: 25px;
+  font-size: 24px;
+  font-family: "Comfortaa", sans-serif;
+  text-decoration: none;
+}
 .grid-2 h2 {
   color: #4c9697;
   font-size: 30px;
@@ -253,6 +260,9 @@ header h3 {
     display: block;
     margin: 0 auto;
   }
+  .learn-more {
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 500px) {
@@ -321,6 +331,10 @@ header h3 {
   }
 
   .section-2 h3 {
+    font-size: 18px;
+  }
+
+  .learn-more {
     font-size: 18px;
   }
 }
