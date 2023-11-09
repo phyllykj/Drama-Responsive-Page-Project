@@ -123,6 +123,11 @@ footer {
   grid-gap: 30px;
 }
 
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
 a {
   color: palegoldenrod;
 }
@@ -223,6 +228,10 @@ header h3 {
     font-size: 18px;
   }
 
+  .card-footer p {
+    font-size: 12px;
+  }
+
   .grid-3-columns {
     display: grid;
     grid-template-columns: 1fr;
@@ -277,7 +286,7 @@ header h3 {
   }
 
   .card-footer p {
-    font-size: 12px;
+    display: none;
   }
 
   .grid-3-columns {
